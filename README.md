@@ -1,5 +1,7 @@
 # OC-EFI-ASUS-B250M-KYLIN
 
+测试系统：macOS Ventura
+
 主板:ASUS B250M-KYLIN 黑苹果OC
 
 cpu:i7 7700
