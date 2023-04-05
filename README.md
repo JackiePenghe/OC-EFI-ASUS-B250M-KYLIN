@@ -4,6 +4,8 @@
 
 主板:ASUS B250M-KYLIN 黑苹果OC（安装过程中 请使用的config 通用.plist《记得重新命名为config.plist》进行安装，安装之后再替换config.plist）
 
+有任何问题都可提交 issues。但我并不经常登陆github 只要看到就会回复或处理。敬请谅解
+
 cpu:i7 7700
 
 显卡:rx570
