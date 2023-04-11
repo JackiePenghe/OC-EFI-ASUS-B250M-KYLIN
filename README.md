@@ -10,7 +10,7 @@ cpu:i7 7700
 
 显卡:rx570
 
-OC版本：基于OC 0.8.8
+OC版本：基于OC 0.8.8 (建议使用[OpenCore Configurator 2.65.0.0](https://mackie100projects.altervista.org/download/opencore-configurator-2-65-0-0)编辑)
 
 # 我不确定有几个人会用这个EFI，警告：
 
