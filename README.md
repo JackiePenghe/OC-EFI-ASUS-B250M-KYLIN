@@ -1,6 +1,6 @@
 # OC-EFI-ASUS-B250M-KYLIN
 
-测试系统：macOS Sonoma
+测试系统：macOS Sonoma（Venturas可在release中找到2.0.0或更早的版本使用，若下载后的版本中无config-install.plist文件，应该是可以直接进行安装的）
 
 主板:ASUS B250M-KYLIN 黑苹果OC
 
