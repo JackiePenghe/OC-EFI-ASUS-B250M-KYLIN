@@ -250,11 +250,6 @@
 				<key>layout-id</key>
 				<integer>52</integer>
 			</dict>
-			<key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
-			<dict>
-				<key>PP_PhmSoftPowerPlayTable</key>
-				<data>QQMHAQBNAFgIAAA/MwAAGQAAAACABgFADQMA6G4DADIAGQBNAKECmAIAALUBOwF3APkA3gEGAwAA0QIAACADOgNgYQIAUwcAAAAAAAABAgAAAAAAAAAACAAAAAAAAAAAAAAABwACAAAAAAAFAAAAAAAAAAAAAAAAEO4CAAAAAAAAAv8AAAAAAAAD/wAAAAAAAAT/AAAAAAAABf8AAAAAAAAG/wAAAAAAAAf/AAAAAAAACP8AAAAAAAAgAwAAAAAAAFIDAAAAAAAAhAMAAAAAAAC2AwAAAAAAAOgDAAAAAAAAGgQAAAAAAABMBAAAAAAAAH4EAAAAAAAAAAiEAwAAAAAAAAL/AAAAAAAAA/8AAAAAAAAE/wAAAAAAAAX/AAAAAAAABv8AAAAAAAAH/wAAAAAAAAj/AAAAAAAAAQgAAAAwdQAAAAAAgAAAAAAB5v8UYwEAAAAAMgAAAAAC5v/4ugEAAAAAMgAAAAAD5v+I7gEAAAAAMgAAAAAE5v80FQIAAAAAMgAAAAAF5v9gLwIAAAAAMgAAAAAG5v8IRgIAAAAAMgAAAAAHAACEWwIAAAAAMgAAAAAAAwAgAwAA6ANAnAAAAAAKUgMAAOgDoIYBAAAAC4QDAADoA0ANAwAAAAAICAAAkOIAAPgkAQAY9gAAAAAAAKjeAAAJtP8Y9gAAgDgBAIgNAQAAAAAAAPoAAAqb/6AJAQAITAEA+CQBAAAAAABwEQEAC4L/KB0BAKhbAQBoPAEAAAAAAOAoAQAMaf/ILAEAYGcBAPBPAQAAAAAAaDwBAA03/4A4AQAYcwEAeGMBAAAAAAAITAEADgX/OEQBANB+AQAAdwEAAAAAAMBXAQAPAADwTwEAoIYBAKCGAQAAAAAAeGMBAAEXAAACACMAAAkDoA9wF1gb0AegD0AflCoBZADkEjARKJoBAFAjZABkAGQAZABkAGQAZAABMjwAAAS5AAAAlQC5ALkAAAAAALkAVQAAAAAAWwACAGkAUABQAHMAcwBfAAAAkBCWAJAAAAYAAAAAAQYAAAECAAEBAgACAQIAAgECAAIBAgACAQIBAwAQAAAAAAAAABAAAAAAAAACEAAAAAAAAAABAAAAAAA=</data>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
@@ -548,7 +543,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>ExecutablePath</key>
 				<string>Contents/MacOS/USBInjectAll</string>
 				<key>MaxKernel</key>
@@ -584,7 +579,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -1315,7 +1310,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>revpatch=auto,sbvmm,asse</string>
+				<string>-v,revpatch=auto,sbvmm,asse</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
